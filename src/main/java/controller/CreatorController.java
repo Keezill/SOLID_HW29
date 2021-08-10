@@ -19,7 +19,7 @@ public class CreatorController {
         Stream.of(phone1, phone2, phone3).forEach(Phone::info);
     }
 
-    public static void call(String config, String number){
+    public static void call(String config, String number) {
         Creator creator = getCreator(config);
 
         Phone phone1 = creator.create("Apple iPhone 5", "+380934465966", 699.99);

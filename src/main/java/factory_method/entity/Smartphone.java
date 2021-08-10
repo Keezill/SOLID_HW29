@@ -3,7 +3,7 @@ package factory_method.entity;
 import lombok.Value;
 
 @Value
-public class Smartphone implements Phone{
+public class Smartphone implements Phone {
     String model;
     String number;
     double price;

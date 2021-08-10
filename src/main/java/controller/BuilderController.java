@@ -8,6 +8,7 @@ public class BuilderController {
         Manufacturer manufacturer = Manufacturer.newBuilder()
                 .setManufacturerName("IBM")
                 .build();
+
         Computer computer = Computer.newBuilder()
                 .setComputerName(name)
                 .setAmount(amount)

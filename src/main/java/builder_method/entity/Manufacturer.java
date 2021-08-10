@@ -7,7 +7,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class Manufacturer implements Cloneable{
+public class Manufacturer implements Cloneable {
     private String name;
 
     private Manufacturer() {

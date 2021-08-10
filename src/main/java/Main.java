@@ -13,6 +13,7 @@ public class Main {
         Manufacturer manufacturer = Manufacturer.newBuilder()
                 .setManufacturerName("LENOVO Inc.")
                 .build();
+
         Computer original = Computer.newBuilder()
                 .setComputerName("Lenovo")
                 .setAmount(2)
