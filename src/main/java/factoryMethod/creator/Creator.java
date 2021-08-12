@@ -1,6 +1,6 @@
-package factory_method.creator;
+package factoryMethod.creator;
 
-import factory_method.entity.Phone;
+import factoryMethod.entity.Phone;
 
 public interface Creator {
     Phone create(String model, String number, double price);

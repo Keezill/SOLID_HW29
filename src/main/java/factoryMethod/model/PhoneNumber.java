@@ -1,4 +1,4 @@
-package factory_method.utils;
+package factoryMethod.model;
 
 
 import lombok.Getter;
@@ -7,7 +7,7 @@ public class PhoneNumber {
     private final int MAX_NUMBER_LENGTH = 13;
     private final int MIN_NUMBER_LENGTH = 10;
     @Getter
-    private String number;
+    private final String number;
 
     public PhoneNumber(String number){
         validate(number);

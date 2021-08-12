@@ -1,9 +1,9 @@
-package factory_method.entity;
+package factoryMethod.entity;
 
 import lombok.Value;
 
 @Value
-public class Cellphone implements Phone {
+public class Smartphone implements Phone {
     String model;
     String number;
     double price;

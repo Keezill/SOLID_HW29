@@ -1,7 +1,7 @@
 package controller;
 
-import builder_method.entity.Computer;
-import builder_method.entity.Manufacturer;
+import builderMethod.entity.Computer;
+import builderMethod.entity.Manufacturer;
 
 public class BuilderController {
     public static void create(String name, int amount, double price) {

@@ -1,16 +1,16 @@
-package controller;
+package factoryMethod;
 
-import factory_method.creator.CellphoneCreator;
-import factory_method.creator.Creator;
-import factory_method.creator.SmartphoneCreator;
-import factory_method.entity.Phone;
-import factory_method.utils.PhoneNumber;
+import factoryMethod.creator.CellphoneCreator;
+import factoryMethod.creator.Creator;
+import factoryMethod.creator.SmartphoneCreator;
+import factoryMethod.entity.Phone;
+import factoryMethod.model.PhoneNumber;
 
 import java.util.stream.Stream;
 
-public class CreatorController {
+public class CreatorApp {
 
-    public static void getInfo(String config) {
+    public static void phoneInfo(String config) {
         Creator creator = getCreator(config);
 
         Phone phone1 = creator.create("Apple iPhone 5", "+380934465966", 699.99);

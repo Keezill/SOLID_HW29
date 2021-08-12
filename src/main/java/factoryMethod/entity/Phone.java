@@ -1,4 +1,4 @@
-package factory_method.entity;
+package factoryMethod.entity;
 
 public interface Phone {
     void doCall(String number);

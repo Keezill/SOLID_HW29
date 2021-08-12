@@ -1,12 +1,12 @@
-import builder_method.entity.Computer;
-import builder_method.entity.Manufacturer;
+import builderMethod.entity.Computer;
+import builderMethod.entity.Manufacturer;
 import controller.BuilderController;
-import controller.CreatorController;
+import factoryMethod.CreatorApp;
 
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
-        CreatorController.getInfo("smartphone");
-        CreatorController.call("cellphone", "0976644333");
+        CreatorApp.phoneInfo("smartphone");
+        CreatorApp.call("cellphone", "0976644333");
 
         BuilderController.create("ASUS", 1, 2999.99);
 

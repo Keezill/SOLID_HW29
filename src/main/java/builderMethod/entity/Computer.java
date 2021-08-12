@@ -1,4 +1,4 @@
-package builder_method.entity;
+package builderMethod.entity;
 
 import lombok.Getter;
 import lombok.Setter;

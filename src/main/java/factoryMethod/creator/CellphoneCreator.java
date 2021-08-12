@@ -1,7 +1,7 @@
-package factory_method.creator;
+package factoryMethod.creator;
 
-import factory_method.entity.Cellphone;
-import factory_method.entity.Phone;
+import factoryMethod.entity.Cellphone;
+import factoryMethod.entity.Phone;
 
 public class CellphoneCreator implements Creator {
     @Override
